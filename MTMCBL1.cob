@@ -1,7 +1,7 @@
       *-------------------------
        IDENTIFICATION DIVISION.
       *-------------------------
-       PROGRAM-ID.    ADDONE.
+       PROGRAM-ID.    ADDONE. //put jcl jobid of 8 bits
        AUTHOR.        DIV.
 
       *------------------------
