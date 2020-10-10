@@ -33,6 +33,7 @@
            05 OUTPUT-LASTN PIC X(22).
            05 FILLER PIC X(28) VALUE SPACES.
            05 OUTPUT-BAL PIC ZZZ,ZZZ,ZZZ,ZZZ.
+           05 ws-space pic x(4) value spaces.
 
        WORKING-STORAGE SECTION.
 
@@ -42,6 +43,7 @@
            05 WS-LASTN PIC X(22).
            05 FILLER PIC X(28) VALUE SPACES.
            05 WS-BAL PIC ZZZ,ZZZ,ZZZ,ZZZ.
+           05 ws-space pic x(4) value spaces.
 
        01  WS-LAST-REC PIC X(1).
        01  WS-BAL-NUM USAGE IS COMP-1.
