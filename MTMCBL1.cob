@@ -9,7 +9,7 @@
       *------------------------
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT CUST-RECS ASSIGN TO CUSTRECS
+           SELECT CUST-RECS ASSIGN TO CUSTRECS // always set your program id same as cbl prog name
            ORGANIZATION IS LINE SEQUENTIAL.
            SELECT TOP-ACCTS ASSIGN TO TOPACCTS
            ORGANIZATION IS LINE SEQUENTIAL.
