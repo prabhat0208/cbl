@@ -11,7 +11,7 @@
        FILE-CONTROL.
            SELECT CUST-RECS ASSIGN TO CUSTRECS // always set your program id same as cbl prog name
            ORGANIZATION IS LINE SEQUENTIAL.
-           SELECT TOP-ACCTS ASSIGN TO TOPACCTS
+           SELECT TOP-ACCTS ASSIGN TO TOPACCTS // selecting top-accts
            ORGANIZATION IS LINE SEQUENTIAL.
 
       *-------------------
