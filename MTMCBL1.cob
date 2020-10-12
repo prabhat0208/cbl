@@ -7,7 +7,7 @@
       *------------------------
        ENVIRONMENT DIVISION.
       *------------------------
-       INPUT-OUTPUT SECTION.
+       INPUT-OUTPUT SECTION. //This is input and output section
        FILE-CONTROL.
            SELECT CUST-RECS ASSIGN TO CUSTRECS // always set your program id same as cbl prog name
            ORGANIZATION IS LINE SEQUENTIAL.
