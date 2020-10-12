@@ -17,7 +17,7 @@
       *-------------------
        DATA DIVISION.
       *-------------------
-       FILE SECTION.
+       FILE SECTION.  //Thsi is file section
        FD  CUST-RECS RECORD CONTAINS 80 CHARACTERS RECORDING MODE F.
        01  CUST-RECORD.
            05 CUST-FIRSTNAME PIC X(11).
