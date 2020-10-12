@@ -1,5 +1,5 @@
       *-------------------------
-       IDENTIFICATION DIVISION.
+       IDENTIFICATION DIVISION.  //This is identification divison
       *-------------------------
        PROGRAM-ID.    ADDONE. //put jcl jobid of 8 bits
        AUTHOR.        DIV.
