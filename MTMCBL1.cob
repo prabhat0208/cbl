@@ -37,7 +37,7 @@
 
        WORKING-STORAGE SECTION.
 
-       01  WS-CUSTOMERS.
+       01  WS-CUSTOMERS.n
            05 WS-FISRTN PIC X(11).
            05 FILLER PIC X(3) VALUE SPACES.
            05 WS-LASTN PIC X(22).
