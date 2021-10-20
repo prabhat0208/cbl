@@ -67,7 +67,7 @@
            CLOSE CUST-RECS.
            CLOSE TOP-ACCTS.
            STOP RUN.
-
+          //write code
        WRITE-REC.
            COMPUTE WS-BAL-NUM = FUNCTION NUMVAL-C(OUTPUT-BAL)
            IF WS-BAL-NUM < 50000 THEN
